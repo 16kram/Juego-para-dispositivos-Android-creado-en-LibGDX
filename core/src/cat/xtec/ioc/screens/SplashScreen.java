@@ -31,7 +31,7 @@ public class SplashScreen implements Screen {
 
         this.game = game;
 
-        // Creem la càmera de les dimensions del joc
+        // Creem la càmera de les dimensions del juego
         OrthographicCamera camera = new OrthographicCamera(Settings.GAME_WIDTH, Settings.GAME_HEIGHT);
         // Posant el paràmetre a true configurem la càmera per a
         // que faci servir el sistema de coordenades Y-Down
